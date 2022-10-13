@@ -1,0 +1,76 @@
+node-d3-path (1.0.9-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Apply multi-arch hints. + node-d3-path: Add Multi-Arch: foreign.
+
+  [ Pirate Praveen ]
+  * Drop unused debian/webpack.config.js
+  * Use node-rollup-plugin-terser (now available in the archive)
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Enable nocheck build profile
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 16 Dec 2020 01:28:24 +0530
+
+node-d3-path (1.0.9-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.9
+
+ -- Abhijith Sheheer <abhijithsheheer@gmail.com>  Sun, 08 Dec 2019 22:50:39 +0530
+
+node-d3-path (1.0.8-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.8
+  * Drop compat file, rely on debhelper-compat and bump compat level to 12
+  * Fixed Format URL in debian/copyright
+  * Bump Standards-Version to 4.4.1 (no changes needed)
+  * Added upstream/metadata
+  * Use pkg-js-tools auto install
+  * Added Rules-Require-Root in debian/control
+  * Run warp-and-sort
+  * Fix package wrt cme
+  * Update minimum version of pkg-js-tools
+
+ -- Abhijith Sheheer <abhijithsheheer@gmail.com>  Fri, 25 Oct 2019 16:03:13 +0000
+
+node-d3-path (1.0.7-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Make build reproducible
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 08 Jul 2019 13:13:21 +0530
+
+node-d3-path (1.0.7-1) experimental; urgency=medium
+
+  * New upstream version 1.0.7
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+  * Switch to rollup from webpack (rollup is in main now)
+  * Switch to pkg-js-tools for tests
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 19 Jun 2019 19:19:50 +0530
+
+node-d3-path (1.0.5-3) unstable; urgency=medium
+
+  * Don't install index.js
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 06 Jan 2018 23:12:54 +0530
+
+node-d3-path (1.0.5-2) unstable; urgency=medium
+
+  * Don't install src (causes warning with some reverse dependency builds)
+  * Set global module path in webpack.config.js
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 06 Jan 2018 19:04:05 +0530
+
+node-d3-path (1.0.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #877997)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 08 Oct 2017 16:58:51 +0530
